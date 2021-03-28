@@ -1,0 +1,7 @@
+Program : SplitXDATCAR
+Author : Keith Butler
+
+Description : Reads in VASP MD trajectory ('XDATCAR') and splits it, printing a POSCAR of a snapshot each 'n' steps. 
+Requirements: Python, numpy
+Useage : SplitXDAT.py
+         Simply edit the SplitXDAT.py file, just change the parameter n at the end of the file
