@@ -83,5 +83,6 @@ def print_poscars_every_n(title, scale_factor, lattice, number_ions, species, co
 f = open('XDATCAR','r')
 lines = f.readlines()
 f.close
+n = 10
 title, scale_factor, lattice, number_ions, species, configurations = read_xdatcar(lines)
-print_poscars_every_n(title, scale_factor, lattice, number_ions, species, configurations, 10)
+print_poscars_every_n(title, scale_factor, lattice, number_ions, species, configurations, n)
