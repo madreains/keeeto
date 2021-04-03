@@ -47,7 +47,7 @@ def print_poscars_every_n(title, scale_factor, lattice, number_ions, species, co
 # Print out a POSCAR every n steps; set by the print_every parameter
 # ---------------------------------------------------------------------------
     counter = 0
-    print_every = 10
+    print_every = n
     for configuration in configurations:
         counter += 1
         atom_count = 0
