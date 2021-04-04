@@ -73,6 +73,7 @@ def print_poscars_every_n(title, scale_factor, lattice, number_ions, species, co
 		    outfile.write('  ')
                     if ion_count == len(number_ions):
                         outfile.write('\n')	
+			outfile.write('Direct \n')
 	    for coordinate in configuration:
 	        for index in range(3):
 		    outfile.write('%12.7f'%(float(coordinate[index])))
